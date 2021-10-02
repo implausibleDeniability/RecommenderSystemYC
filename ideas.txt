@@ -1,0 +1,5 @@
+1. Optimize the metric directly. There should be types of rating: 
+    a) Rating 4 or 5
+    b) No rating, or rating 3 or lower
+    
+    Your model should predict organizations the person defined as (a)
