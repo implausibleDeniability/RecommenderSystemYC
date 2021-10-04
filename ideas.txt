@@ -3,3 +3,5 @@
     b) No rating, or rating 3 or lower
     
     Your model should predict organizations the person defined as (a)
+    
+2. You can make batch selection and training in alternating squares
