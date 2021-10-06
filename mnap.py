@@ -11,6 +11,8 @@ def compute_mnap(submission):
         true_orgs = pickle.load(file)
     mnaps = []
     for user_id, target in tqdm(zip(submission.index, submission.target)):
+        if user_id not in true_orgs:
+            continue
         true_org = true_orgs[user_id]
         if len(true_org) == 0:
             continue
