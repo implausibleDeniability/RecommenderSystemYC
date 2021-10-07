@@ -8,3 +8,4 @@
 3. Probably, the user never rates the organization he has already rated
 4. separate bias for each person
 5. Transfer everything to ai lab machine
+6. Ты зря так долго играешься ручками: мог уже давно взять хороший инструмент, который факторизует матрицу за пару минут вместо часов
