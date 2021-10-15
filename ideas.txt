@@ -1,11 +1,12 @@
-1. Optimize the metric directly. There should be types of rating: 
+1. DONE Optimize the metric directly. There should be types of rating: 
     a) Rating 4 or 5
     b) No rating, or rating 3 or lower
     
     Your model should predict organizations the person defined as (a)
     
-2. You can make batch selection and training in alternating squares
-3. Probably, the user never rates the organization he has already rated
-4. separate bias for each person
-5. Transfer everything to ai lab machine
-6. Ты зря так долго играешься ручками: мог уже давно взять хороший инструмент, который факторизует матрицу за пару минут вместо часов
+2. DONE You can make batch selection and training in alternating squares
+4. DONE separate bias for each person
+5. DONE Transfer everything to ai lab machine
+6. DONE Ты зря так долго играешься ручками: мог уже давно взять хороший инструмент, который факторизует матрицу за пару минут вместо часов
+7. DONE Матрица R будет весить 50 гигов - такое число можно запихнуть на машину AI лабы
+8. Скорее всего, один человек не оценивает два раза то же место, поэтому в сабмите не должно быть рейтингов, которые есть в тесте
