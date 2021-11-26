@@ -1,5 +1,10 @@
 data/
+libFM_data/
+sparse_data/
+submissions/
+logs/
 old_notebooks/
+
 # file to test fast hypothesis
 zzz.ipynb
 
