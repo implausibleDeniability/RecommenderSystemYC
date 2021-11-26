@@ -10,7 +10,7 @@ def compute_mnap(submission):
     MNAP score formula is in 'other/mnap_formulae.png'
     Uses data from timestamp > 1050 as the groundtruth for the estimation
     """
-    with open('data/true_orgs.pickle', 'rb') as file:
+    with open("data/true_orgs.pickle", "rb") as file:
         true_orgs = pickle.load(file)
     mnaps = []
     for user_id, target in tqdm(zip(submission.index, submission.target)):
