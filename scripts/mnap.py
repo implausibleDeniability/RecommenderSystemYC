@@ -5,8 +5,11 @@ import pickle
 
 
 def compute_mnap(submission):
-    # load all organization that the user rated 4 or 5 from ts 1050
-    # sample_submission.csv used ts > 1000
+    """Computes MNAP metric for the given submission
+    The metric is implemented as it is explained in the competition
+    MNAP score formula is in 'other/mnap_formulae.png'
+    Uses data from timestamp > 1050 as the groundtruth for the estimation
+    """
     with open('data/true_orgs.pickle', 'rb') as file:
         true_orgs = pickle.load(file)
     mnaps = []
