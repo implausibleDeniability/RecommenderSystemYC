@@ -8,6 +8,9 @@ old_notebooks/
 # file to test fast hypothesis
 zzz.ipynb
 
+# fastFM tutorial
+fastFM_demo.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
