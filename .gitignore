@@ -11,6 +11,9 @@ zzz.ipynb
 # fastFM tutorial
 fastFM_demo.ipynb
 
+# hyperparameter optimization logs
+hyperparams_tune.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
